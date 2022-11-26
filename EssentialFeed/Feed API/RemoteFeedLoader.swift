@@ -5,7 +5,8 @@
 //  Created by Htet LynnHtun on 24/11/2022.
 //
 
-public class RemoteFeedLoader {
+public class RemoteFeedLoader: FeedLoader {
+    
     private let url: URL
     private let client: HTTPClient
     
