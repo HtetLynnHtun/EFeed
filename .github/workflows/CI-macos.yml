@@ -21,6 +21,9 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    - name: Listing all xcode versions
+      run: ls -a /Applications | grep Xcode
+
     - uses: maxim-lobanov/setup-xcode@v1.5.1
       with:
         xcode-version: '14.1'
