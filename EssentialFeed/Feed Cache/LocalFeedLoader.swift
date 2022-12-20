@@ -5,24 +5,6 @@
 //  Created by Htet LynnHtun on 13/12/2022.
 //
 
-private final class FeedCachePolicy {
-    private static let calendar = Calendar(identifier: .gregorian)
-    
-    private init() { }
-    
-    private static var maxCachAgeInDays: Int {
-        return 7
-    }
-    
-    static public func validate(_ timestamp: Date, against date: Date) -> Bool {
-        guard let maxCachedAge = calendar.date(byAdding: .day, value: maxCachAgeInDays, to: timestamp) else {
-            return false
-        }
-        
-        return date < maxCachedAge
-    }
-}
-
 public class LocalFeedLoader {
     private let store: FeedStore
     private let currentDate: () -> Date
