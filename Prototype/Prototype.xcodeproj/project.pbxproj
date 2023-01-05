@@ -12,6 +12,7 @@
 		E40EA65229667EE1002E76B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40EA65029667EE1002E76B0 /* Main.storyboard */; };
 		E40EA65429667EE2002E76B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40EA65329667EE2002E76B0 /* Assets.xcassets */; };
 		E40EA65729667EE2002E76B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40EA65529667EE2002E76B0 /* LaunchScreen.storyboard */; };
+		E40EA65F296687B8002E76B0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EA65E296687B8002E76B0 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E40EA65329667EE2002E76B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E40EA65629667EE2002E76B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E40EA65829667EE2002E76B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40EA65E296687B8002E76B0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E40EA64A29667EE1002E76B0 /* AppDelegate.swift */,
 				E40EA64C29667EE1002E76B0 /* SceneDelegate.swift */,
 				E40EA65029667EE1002E76B0 /* Main.storyboard */,
+				E40EA65E296687B8002E76B0 /* FeedViewController.swift */,
 				E40EA65329667EE2002E76B0 /* Assets.xcassets */,
 				E40EA65529667EE2002E76B0 /* LaunchScreen.storyboard */,
 				E40EA65829667EE2002E76B0 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E40EA64B29667EE1002E76B0 /* AppDelegate.swift in Sources */,
+				E40EA65F296687B8002E76B0 /* FeedViewController.swift in Sources */,
 				E40EA64D29667EE1002E76B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
